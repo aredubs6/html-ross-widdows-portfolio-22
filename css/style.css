@@ -1,0 +1,275 @@
+h1 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 4rem;
+    font-weight: 500;
+    margin: 0rem;
+}
+
+h2 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+h3 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+    margin: 0rem;   
+}
+
+p {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.btn {
+    background: #4A30F1;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 1.2rem;
+    color: #EAE1E1;
+    padding: .5rem 1.5rem .5rem 1.5rem;
+    text-decoration: none;
+
+}
+    
+.body-main {
+    margin: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+.section-header {
+    background-color: #4A30F1;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    width: 100%;
+    gap: 2rem;
+}
+
+.titles-div {
+    position: relative;
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+.title-div {
+    position: relative;
+    display: flex;
+    color: #EAE1E1;
+
+}
+
+.secondary-title-div {
+    color: #EAE1E1;
+
+}
+
+.section-hello {
+    background-color: #EAE1E1;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    min-height: 50vh;
+    width: 100%;
+    gap: 4rem;
+    padding: 0rem;
+}
+
+.hello-div {
+    position: relative;
+    display: flex;
+    flex-direction: wrap;
+    align-items: center;
+    width: 870px;
+    justify-content: space-between;
+    padding: 4rem;
+}
+
+.bio-div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    color: #4A30F1;
+    gap: 0rem;
+    max-width: 500px;
+    padding: 4rem;
+}
+
+.headshot-div {
+    position: relative;
+    padding: 4rem;
+}
+
+.section-my-skills {
+    background-color: #EAE1E1;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    min-height: 50vh;
+    width: 100%;
+}
+
+.my-skills-div {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    max-width: 1200px;
+    justify-content: center;
+}
+
+.main-title-div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    color: #4A30F1;
+    padding: 4rem;
+}
+
+.flex-feature-grid {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.individual-skills-div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    color: #4A30F1;
+    gap: 1rem;
+    max-width: 300px;
+    padding: 4rem 4rem 4rem 4rem ;
+}
+.skill-image img {
+    height: 400px;
+    position: relative;
+
+}
+
+.section-contact {
+    background-color: #EAE1E1;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    min-height: 50vh;
+    width: 100%;
+}
+
+.title-paragraph-div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    color: #4A30F1;
+    gap: 1rem;
+    max-width: 400px;
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+.contact-div {
+    color: #4A30F1;
+}
+
+@media (max-width:1000px) {
+    .top-container {
+        flex-direction: column;
+        align-items: center;
+        }
+    h1 {
+        font-size: 3.2rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    .headshot-div {
+        width: 250px;
+        height: auto;
+    }
+    .my-skills-rows {
+        align-items: center;
+    }
+
+    .skill-image img {
+        height: 300px;
+    }
+
+}
+
+@media (max-width:744px) {
+    .titles-div {
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .headshot-div {
+        width: 300px;
+        height: auto;
+        padding: 2rem;
+    }
+    .hello-div {
+        flex-direction: column-reverse;
+    }
+    .bio-div {
+        max-width: 300px;
+    }
+    .flex-feature-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    .my-skills-div {
+        max-width: 500px;
+    }
+}
+    
+@media (max-width:393px) {
+        h1 {
+            font-size: 2rem;
+        }
+        h3 {
+            font-size: 1rem;
+        }
+        p {
+            font-size: 1rem;
+        }
+        .headshot-div {
+            padding: 2rem;
+        }
+        .bio-div {
+            padding: 2rem;
+        }
+    }
